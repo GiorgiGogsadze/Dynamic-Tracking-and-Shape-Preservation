@@ -12,9 +12,9 @@
 
 Full write-ups with equations, figures, and per-case discussion are included in `reports/`:
 
-- [Final_P1_Report_Giorgi_Gogsadze.pdf](https://drive.google.com/file/d/1OaXNwhJ3WdtDRDvdr1CyBdGzQXOj-Y7L/view?usp=sharing) — Static Formation on a Handwritten Input. [See Result](https://drive.google.com/file/d/1SNxTweYDmIoakz0uOpISYB7CD0rd3Htq/view?usp=sharing)
-- [Final_P2_Report_Giorgi_Gogsadze.pdf](https://drive.google.com/file/d/12Cem1-B3VffM2SRaJEevC5jFuOkrVri1/view?usp=sharing) — Transition to New Year Greeting. [See Result](https://drive.google.com/file/d/1m9Im49hAMTX2ky-kI_PYogLwQ-ndluxa/view?usp=sharing)
-- [Final_P3_Report_Giorgi_Gogsadze.pdf](https://drive.google.com/file/d/1PajnCzItxUDUoNzFDnSl36g3eOApmDOj/view?usp=sharing) — Dynamic Tracking and Shape Preservation. [See Result](https://drive.google.com/file/d/1eQHH6q2nLPhIDXzOSmhTRb8QVUaTtWR2/view?usp=sharing) [(input video)](https://drive.google.com/file/d/19X0yb2QDZV3NLnrhmJJN_dmzngm6jxO-/view?usp=sharing)
+- [Final_P1_Report_Giorgi_Gogsadze.pdf](Part1/P1_Report.pdf) — Static Formation on a Handwritten Input. [See Result](https://drive.google.com/file/d/1SNxTweYDmIoakz0uOpISYB7CD0rd3Htq/view?usp=sharing)
+- [Final_P2_Report_Giorgi_Gogsadze.pdf](Part2/P2_Report.pdf) — Transition to New Year Greeting. [See Result](https://drive.google.com/file/d/1m9Im49hAMTX2ky-kI_PYogLwQ-ndluxa/view?usp=sharing)
+- [Final_P3_Report_Giorgi_Gogsadze.pdf](Part3/P3_Report.pdf) — Dynamic Tracking and Shape Preservation. [See Result](https://drive.google.com/file/d/1eQHH6q2nLPhIDXzOSmhTRb8QVUaTtWR2/view?usp=sharing) [(input video)](https://drive.google.com/file/d/19X0yb2QDZV3NLnrhmJJN_dmzngm6jxO-/view?usp=sharing)
 
 A three-stage numerical simulation pipeline that choreographs a swarm of drones — first converging on a handwritten signature, then morphing into a static holiday greeting, and finally coming alive to track and mimic the motion of an object in video. Every stage is built on the same core dynamical model (attraction + repulsion + damping, integrated with RK4), with each sub-problem extending the previous one.
 
